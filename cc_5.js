@@ -50,7 +50,7 @@ console.log(foundCustomer); // logged
 // Task 8 - Tax Calculation // 
 function calculateTax(amount, taxRate) {
 let tax = amount * taxRate;
-console.log("Tax: $" + tax); // logged
+console.log(`Calculated tax: $${tax.toFixed(2)}`); // logged
 return tax;} 
 
 // Task 9 - Discount Application //
