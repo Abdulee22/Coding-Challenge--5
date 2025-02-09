@@ -39,6 +39,11 @@ console.log(availableProducts);// logged
 let sales = [500, 300, 200, 400]; // sales
 let totalRevenue = sales.reduce(function(total, sale) //
 {return total + sale;}, 0);
-console.log(totalRevenue); // logged
+console.log(totalRevenue); // logged 
 
+// Task 7 - Customer Search //
+let customers = ["Alice", "Bob", "Charlie", "David"]; // Customers 
+let foundCustomer = customers.find(function(customer) 
+{return customer === "Charlie";}); // Charlie found
+console.log(foundCustomer); // logged
     
