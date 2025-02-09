@@ -15,5 +15,12 @@ displayOrder: function()
 { console.log("Order ID: " + this.orderId + ", Total: $" + this.totalAmount + ", Status: " + this.status);}}; // logged
 order.displayOrder();
     
-    
+// Task 3 - Shopping Cart //
+let cartItems = ["PS5 ", "Camera", "iphone"]; // Cart Items
+cartItems.push("Airpods"); // item added
+cartItems.pop(); // item removed
+cartItems.unshift("Razer Keybored"); // Item added to beginning
+cartItems.shift(); // Item from beginning removed
+console.log(cartItems); // logged
+
     
