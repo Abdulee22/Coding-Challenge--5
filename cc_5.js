@@ -58,3 +58,10 @@ let applyDiscount = function(price, discount) {
 let discountedPrice = price - (price * discount);
 console.log("Discounted Price: $" + discountedPrice); // logged
 return discountedPrice;};
+
+// Task 10 - Loyalty Points //
+const calculatePoints = (purchaseAmount) => {
+const points = Math.floor(purchaseAmount / 10);
+console.log(`Points earned: ${points}`);
+return points; };
+    
