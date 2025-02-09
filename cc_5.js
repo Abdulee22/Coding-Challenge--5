@@ -23,4 +23,9 @@ cartItems.unshift("Razer Keybored"); // Item added to beginning
 cartItems.shift(); // Item from beginning removed
 console.log(cartItems); // logged
 
+// Task 4 - Price Adjustments
+let prices = [100, 200, 300]; // prices
+let discountedPrices = prices.map(function(price)
+{ return price * 0.9 }); // 10% Discount
+console.log(discountedPrices); // logged
     
