@@ -46,4 +46,9 @@ let customers = ["Alice", "Bob", "Charlie", "David"]; // Customers
 let foundCustomer = customers.find(function(customer) 
 {return customer === "Charlie";}); // Charlie found
 console.log(foundCustomer); // logged
-    
+
+// Task 8 - Tax Calculation // 
+function calculateTax(amount, taxRate) {
+let tax = amount * taxRate;
+console.log("Tax: $" + tax); // logged
+return tax;}
