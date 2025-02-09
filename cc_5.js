@@ -51,4 +51,10 @@ console.log(foundCustomer); // logged
 function calculateTax(amount, taxRate) {
 let tax = amount * taxRate;
 console.log("Tax: $" + tax); // logged
-return tax;}
+return tax;} 
+
+// Task 9 - Discount Application //
+let applyDiscount = function(price, discount) {
+let discountedPrice = price - (price * discount);
+console.log("Discounted Price: $" + discountedPrice); // logged
+return discountedPrice;};
