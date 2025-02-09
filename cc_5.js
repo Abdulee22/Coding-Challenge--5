@@ -34,4 +34,11 @@ let inventory = [5, 0, 12, 8, 0]; // inventory
 let availableProducts = inventory.filter(function(quantity) 
 {return quantity > 0}); // no 0 in inventory
 console.log(availableProducts);// logged
+
+// Task 6 - Revenue Calculation //
+let sales = [500, 300, 200, 400]; // sales
+let totalRevenue = sales.reduce(function(total, sale) //
+{return total + sale;}, 0);
+console.log(totalRevenue); // logged
+
     
